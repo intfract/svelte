@@ -1,0 +1,21 @@
+:root {
+  font-family: 'Lexend Deca', sans-serif;
+  --accent: #5865f2;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+#app {
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: 100vh;
+}
+
+*::selection {
+  background: var(--accent);
+  color: white;
+}
