@@ -149,4 +149,15 @@
       transform: rotateZ(360deg);
     }
   }
+
+  @media screen and (max-width: 1200px) {
+    main {
+      flex-direction: column;
+    }
+
+    .splash {
+      width: 100%;
+      height: 50%;
+    }
+  }
 </style>
