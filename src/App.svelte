@@ -160,4 +160,26 @@
       height: 50%;
     }
   }
+
+  @media screen and (max-width: 800px) {
+      
+    .content {
+      width: auto;
+      height: 50%;
+      margin: 0 80px;
+    }
+  }
+
+  @media screen and (max-width: 600px) {
+    
+    .splash {
+      height: 100%;
+    }
+      
+    .content {
+      width: auto;
+      height: auto;
+      margin: 80px 80px;
+    }
+  }
 </style>
